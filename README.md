@@ -20,4 +20,12 @@ chmod -R 755 templates_c cache
 
 # 5. 起動
 docker-compose up -d
+
+# おまけ
+# コンテナを再起動
+docker-compose restart
+
+# コンテナを停止
+docker-compose down
+
 ```
