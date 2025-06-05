@@ -1,0 +1,21 @@
+# Composer 依存関係
+/vendor/
+
+# Smarty 関連
+/templates_c/
+/cache/
+
+# ログファイル
+*.log
+
+# IDE・エディタ設定
+/.vscode/
+/.idea/
+
+# OS 固有ファイル
+.DS_Store
+Thumbs.db
+
+# 環境設定ファイル
+.env
+.env.local
